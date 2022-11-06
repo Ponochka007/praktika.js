@@ -1,0 +1,45 @@
+body {
+    font-family: 'Playfair Display', serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul  {
+    list-style: none;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+    
+}
+
+.menu__list {
+    display: flex;
+
+}
+
+.menu__list-link {
+    text-transform: uppercase;
+    color: #5a5858;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 50px;
+    padding-bottom: 5px;
+    transition: all .5s;
+    border-bottom: 1px solid transparent;
+}
+
+.menu__list-link:hover  {
+    border-bottom: 1px solid darkblue;
+    color: darkblue;
+}
+.header__top {
+    padding-top: 20px;
+}
+
+
